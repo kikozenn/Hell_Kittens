@@ -334,7 +334,7 @@ def get_text_from_file_dialog():
     root.withdraw()  # hide main window
 
     file_path = filedialog.askopenfilename(
-        title="Select a text file",
+        title="Select your LLM text file",
         filetypes=[("Text files", "*.txt"), ("All files", "*.*")]
     )
 
