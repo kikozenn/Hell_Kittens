@@ -1,6 +1,7 @@
 import math
 import os
 from PIL import Image, ImageDraw, ImageFont
+#i dont like your spiral
 
 # For file selection dialog
 import tkinter as tk
